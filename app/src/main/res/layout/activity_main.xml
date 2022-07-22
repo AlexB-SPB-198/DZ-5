@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="10dp"
+android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_twotone_forward_24"
+        android:text="   NEXT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/Pass"
+        app:layout_constraintStart_toStartOf="@id/Pass"
+        app:layout_constraintTop_toBottomOf="@id/Pass"
+
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:backgroundTint="@color/green"
+        android:drawableLeft="@drawable/ic_twotone_navigate_before_24"
+        app:layout_constraintEnd_toStartOf="@id/text_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textUser"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="26sp"
+        android:backgroundTint="@color/greenligth"
+        android:background="@drawable/corner_veiw_top"
+        android:text="  Username"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="@id/text_view"
+        app:layout_constraintStart_toStartOf="@id/text_view"
+        app:layout_constraintTop_toBottomOf="@id/text_view"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Mail"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/greenligth"
+
+        android:text="  Email"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="@id/textUser"
+        app:layout_constraintStart_toStartOf="@id/textUser"
+        app:layout_constraintTop_toBottomOf="@id/textUser"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Pass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/corner_veiw_bottom"
+        android:backgroundTint="@color/greenligth"
+        android:text="  Password"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="@id/Mail"
+        app:layout_constraintStart_toStartOf="@id/Mail"
+        app:layout_constraintTop_toBottomOf="@id/Mail"
+        tools:ignore="MissingConstraints" />
+    corners android:radius="30.0dip"
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:text="REGISTRED"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Sova"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="200dp"
+android:backgroundTint="@color/green"
+        android:src="@drawable/ic_owl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Travia"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/green"
+        android:text=" Trivia "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Sova"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
