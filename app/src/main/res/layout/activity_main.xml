@@ -16,7 +16,8 @@
         app:cornerRadius="10dp"
 android:backgroundTint="@color/white"
         android:drawableRight="@drawable/ic_twotone_forward_24"
-        android:text="   NEXT"
+        android:text="NEXT"
+        android:paddingLeft="36dp"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@id/Pass"
@@ -37,48 +38,50 @@ android:backgroundTint="@color/white"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <EditText
         android:id="@+id/textUser"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="26sp"
         android:backgroundTint="@color/greenligth"
         android:background="@drawable/corner_veiw_top"
-        android:text="  Username"
+        android:hint="Username"
+        android:paddingLeft="12dp"
         android:textSize="60px"
         app:layout_constraintEnd_toEndOf="@id/text_view"
         app:layout_constraintStart_toStartOf="@id/text_view"
         app:layout_constraintTop_toBottomOf="@id/text_view"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <EditText
         android:id="@+id/Mail"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="6dp"
         android:background="@color/greenligth"
-
-        android:text="  Email"
+        android:hint="Email"
+        android:paddingLeft="12dp"
         android:textSize="60px"
         app:layout_constraintEnd_toEndOf="@id/textUser"
         app:layout_constraintStart_toStartOf="@id/textUser"
         app:layout_constraintTop_toBottomOf="@id/textUser"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <EditText
         android:id="@+id/Pass"
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginTop="6dp"
         android:background="@drawable/corner_veiw_bottom"
         android:backgroundTint="@color/greenligth"
-        android:text="  Password"
+        android:hint="Password"
         android:textSize="60px"
+        android:paddingLeft="12dp"
         app:layout_constraintEnd_toEndOf="@id/Mail"
         app:layout_constraintStart_toStartOf="@id/Mail"
         app:layout_constraintTop_toBottomOf="@id/Mail"
         tools:ignore="MissingConstraints" />
-    corners android:radius="30.0dip"
+
 
     <TextView
         android:id="@+id/text_view"
