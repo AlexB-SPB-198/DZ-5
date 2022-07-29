@@ -24,7 +24,7 @@ android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="@id/Pass"
         app:layout_constraintTop_toBottomOf="@id/Pass"
 
-        tools:ignore="MissingConstraints" />
+         />
 
     <Button
         android:id="@+id/Back"
@@ -36,7 +36,7 @@ android:backgroundTint="@color/white"
         app:layout_constraintEnd_toStartOf="@id/text_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+         />
 
     <EditText
         android:id="@+id/textUser"
@@ -51,7 +51,7 @@ android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="@id/text_view"
         app:layout_constraintStart_toStartOf="@id/text_view"
         app:layout_constraintTop_toBottomOf="@id/text_view"
-        tools:ignore="MissingConstraints" />
+         />
 
     <EditText
         android:id="@+id/Mail"
@@ -65,7 +65,7 @@ android:backgroundTint="@color/white"
         app:layout_constraintEnd_toEndOf="@id/textUser"
         app:layout_constraintStart_toStartOf="@id/textUser"
         app:layout_constraintTop_toBottomOf="@id/textUser"
-        tools:ignore="MissingConstraints" />
+        />
 
     <EditText
         android:id="@+id/Pass"
@@ -76,11 +76,11 @@ android:backgroundTint="@color/white"
         android:backgroundTint="@color/greenligth"
         android:hint="Password"
         android:textSize="60px"
-        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
         app:layout_constraintEnd_toEndOf="@id/Mail"
         app:layout_constraintStart_toStartOf="@id/Mail"
         app:layout_constraintTop_toBottomOf="@id/Mail"
-        tools:ignore="MissingConstraints" />
+         />
 
 
     <TextView
@@ -99,7 +99,7 @@ android:backgroundTint="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <ImageView
         android:id="@+id/Sova"
@@ -111,7 +111,7 @@ android:backgroundTint="@color/green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
         android:id="@+id/Travia"
@@ -126,6 +126,6 @@ android:backgroundTint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Sova"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
